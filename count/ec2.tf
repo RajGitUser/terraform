@@ -1,11 +1,11 @@
 resource "aws_instance" "terraform" {
-  count = 3
+  count = 3                   ###### this is the count we aaded here
   ami                    = "ami-09c813fb71547fc4f"
   instance_type          = "t3.micro"
   vpc_security_group_ids = [aws_security_group.allow_all.id]
 
   tags = {
-    Name = var.instances[count.index]
+    Name = var.instances[count.index]   ### here also we added count.index this will loop the num of counts
     terraform = "true"
   }
 }

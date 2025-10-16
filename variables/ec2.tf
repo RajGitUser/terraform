@@ -29,3 +29,9 @@ resource "aws_security_group" "allow_all" {
     description = "security group Name to attach to the EC2 instance"
   }
 }
+
+### ----------------------------------------------------------
+
+### The above variables we declared in variables folders, terraform will access to it and implement
+
+### -----------------------------------------------------------

@@ -4,6 +4,6 @@ resource "aws_route53_record" "roboshop" {
   name    = "${var.instances[count.index]}.${var.domain_name}"  ### mongodb.rajkumardaws.space
   type    = "A"
   ttl     = 1
-  records = [aws_instance.terraform[count.index].private_ip]
+  records = [aws_instance.terraform[count.index].private_ip]    ###based on count.index and main resource and ip address
   allow_overwrite = true
 }

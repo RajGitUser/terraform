@@ -1,5 +1,5 @@
 variable "instances" {
-    default = ["mongodb","mysql","rabbitmq"]
+    default = ["mongodb","mysql","rabbitmq"]    ### as per requirement we can add the count here with the name not with the number
 }
 
 variable "zone_id" {
