@@ -1,11 +1,11 @@
-🛠️ Terraform Infrastructure
+# Terraform Infrastructure
 
 A collection of Terraform configurations and modules used to define, provision, and manage infrastructure using Infrastructure as Code (IaC) principles. This repository enables you to create and maintain cloud resources in a consistent, repeatable, and version-controlled way using Terraform.
 
 Terraform is a declarative IaC tool that builds, changes, and version-controls infrastructure safely and efficiently. 
 GitHub
 
-🧠 About
+# About
 
 Terraform enables you to define infrastructure in human-readable configuration files that can be versioned, shared, and executed to provision real cloud resources. With Terraform, you can manage a wide range of services from cloud providers (like AWS, GCP, Azure), SaaS platforms, and on-prem systems using declarative HCL (HashiCorp Configuration Language) files. 
 GitHub
@@ -20,7 +20,7 @@ environments/ — Environment-specific configurations.
 
 (If your exact file names differ, replace above with your actual structure.)
 
-🛠️ Prerequisites
+# Prerequisites
 
 To work with this repository, install:
 
@@ -31,7 +31,7 @@ GitHub
 ✔ Cloud provider credentials (e.g., AWS IAM keys, Azure Service Principal)
 ✔ Optional: Remote backend for state (S3, GCS, Terraform Cloud)
 
-🚀 Usage
+# Usage
 
 Clone the repository
 
@@ -58,7 +58,7 @@ Destroy resources (optional)
 
 terraform destroy -var-file="terraform.tfvars"
 
-📈 Best Practices
+# Best Practices
 
 ✔ Use modules to encapsulate reusable infrastructure components. 
 GitHub
@@ -69,7 +69,7 @@ Stack Overflow
 ✔ Manage Terraform state remotely (S3/GCS/Backends) for team collaboration.
 ✔ Follow a branching strategy and meaningful commit messages.
 
-🤝 Contributing
+# Contributing
 
 Contributions are welcome! Steps:
 
